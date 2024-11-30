@@ -107,7 +107,7 @@ public class Character_Controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        CursorPictures();
+        //CursorPictures();
     }
 
     void Update()

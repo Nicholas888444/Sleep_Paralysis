@@ -37,7 +37,7 @@ public class Runner_Behavior : MonoBehaviour
 
         transform.position += new Vector3(targetDirection.x, targetDirection.y, 0.0f) * speed * Time.deltaTime;
 
-        if(Vector2.Distance(targetPosition.position, transform.position) < 0.01f) {
+        if(Vector2.Distance(targetPosition.position, transform.position) < 0.1f) {
             if(runningPoints.Count != 0)
                 targetPosition = runningPoints.Dequeue();
             else
